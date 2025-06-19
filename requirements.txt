@@ -1,5 +1,10 @@
 Backend: FastAPI to run the query and serve data via an endpoint
-
 Frontend: HTML template to display the results
-
 Database Connection: Use psycopg2 or asyncpg to talk to PostgreSQL
+
+pip install fastapi uvicorn psycopg2-binary jinja2
+
+your_project/
+app.py
+templates/
+    results.html
